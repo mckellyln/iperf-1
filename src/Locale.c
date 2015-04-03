@@ -76,7 +76,7 @@ Usage: iperf [-s|-c host] [options]\n\
        iperf [-h|--help] [-v|--version]\n\
 \n\
 Client/Server:\n\
-  -f, --format    [kmKM]   format to report: Kbits, Mbits, KBytes, MBytes\n\
+  -f, --format    [kmgKMG] format to report: Kbits, Mbits, Gbits, KBytes, MBytes, GBytes\n\
   -i, --interval  #        seconds between periodic bandwidth reports\n\
   -l, --len       #[KM]    length of buffer to read or write (default 8 KB)\n\
   -m, --print_mss          print TCP maximum segment size (MTU - TCP/IP header)\n\
